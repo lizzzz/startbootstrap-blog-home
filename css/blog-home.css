@@ -37,6 +37,37 @@ margin-top: 4px;
 margin-bottom: 4px;
 }
 
+/* 懒人 */
 .navbar-header .navbar-brand {
   color: #fff;
+}
+
+/* link */
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2F96E8;
+  text-decoration: none;
+}
+
+/* btn */
+.btn-primary {
+  color: #fff;
+  background-color: #2F96E8;
+  border-color: #2F96E8;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #2F96E8;
+  border-color: #2F96E8;
+  text-decoration: underline;
 }
